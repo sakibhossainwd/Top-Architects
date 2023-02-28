@@ -148,12 +148,17 @@ header{
 .count-box{
     display: flex;
     justify-content: space-around;
+    margin-top: 5%;
 }
-.box{
+.boxx{
     border: 1px solid #006092;
     border-radius: 10px;
-    padding: 3% 4%;
+    padding: 2% 3%;
     text-align: center;
+    transition: .5s;
+}
+.boxx:hover{
+    box-shadow: 6px 4px 19px 0px rgba(0,0,0,0.24);
 }
 .box h1{
     font-size: 40px;
