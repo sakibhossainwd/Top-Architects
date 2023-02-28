@@ -175,8 +175,16 @@ header{
     display: flex;
     justify-content: space-around;
     margin-top: 3%;
+    margin-bottom: 10%;
 }
 .sponsor-logo img{
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
+ }
+ /* footer part */
+ footer{
+    background: #fff4e7;
+    text-align: center;
+    padding: 2%;
+    font-size: 20px;
  }
