@@ -29,6 +29,7 @@ header{
     text-decoration: none;
     margin-left: 5%;
     font-size: 26px;
+    color: black;
 }
 /* cover part */
 .cover{
@@ -157,3 +158,25 @@ header{
 .box h1{
     font-size: 40px;
 }
+/* sponssors part */
+.sponsors-container{
+    margin-top: 10%;
+}
+.sponsor-heading{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+.sponsor-heading h1{
+    font-size: 45px;
+    margin-bottom: 2%;
+}
+.sponsor-logo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+.sponsor-logo img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+ }
