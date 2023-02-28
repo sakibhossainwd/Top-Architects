@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+/* top header part */
+header{
+    background-color: #fff4e7;
+}
+.top-bar{
+    padding: 3% 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 30%;
+    font-size: 22px;
+}
+.menu{
+    width: 70%;
+    text-align: right;
+}
+.menu a{
+    text-decoration: none;
+    margin-left: 5%;
+    font-size: 26px;
+}
+/* cover part */
+.cover{
+    text-align: center;
+    padding-bottom: 5%;
+}
+.cover-heading{
+    margin: 5% 0%;
+}
+.cover-heading h1{
+    font-size: 64px;
+    width: 40%;
+    margin: auto;
+}
+.cover-heading p{
+    width: 60%;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.explore-btn{
+    border: none;
+    padding: 20px 30px;
+    border-radius: 5px;
+    background: #006092;
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+/* Feature part */
+.feature-content{
+    display: flex;
+    margin-top: 5%;
+    gap: 15%;
+    align-items: center;
+}
+.feature-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5%;
+}
+.feature-description h1{
+    font-size: 50px;
+    font-weight: 300;
+}
+.feature-description strong{
+    font-weight: 900;
+}
+.feature-description samp{
+    color: #006092;
+    font-weight: 900;
+}
+.feature-description p{
+    font-size: 16px;
+    margin-bottom: 2%;
+}
+
+/* year part */
+.year-container{
+    display: flex;
+    margin-top: 15%;
+    gap: 10%;
+}
+.year-description{
+    width: 40%;
+}
+.year-heading{
+    font-size: 45px;
+    width: 60%;
+    margin-bottom: 3%;
+    
+}
+.box h1{
+    font-weight: 900;
+    margin-bottom: 2%;
+}
+.box{
+    margin-top: 10%;
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow: 6px 4px 19px 0px rgba(0,0,0,0.24);
+}
+.year-img{
+    position: relative;
+    z-index: 1;
+}
+.bege{
+    background-color: #006092;
+    width: 30%;
+    text-align: center;
+    align-items: center;
+    padding: 3% 3%;
+    color: white;
+    border-radius: 5px;
+    margin-top: -70px;
+    margin-left: -50px;
+    position: absolute;
+    z-index: 2;
+}
+.bege h1{
+    font-size: 35px;
+    margin-bottom: 3%;
+}
